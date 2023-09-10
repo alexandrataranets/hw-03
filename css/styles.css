@@ -1,0 +1,190 @@
+:root{
+  --color-brand: #2E2F42;
+  --color-primary: #FFF;
+  --color-background: #404BBF;
+  --color-secondary: #4D5AE5;
+  --color-secondary-dark: #434455;
+  --color-secondary-light: #F4F4FD;
+}
+
+
+body {
+font-family: 'Roboto', sans-serif;
+color: var(--color-secondary-dark);
+background-color: var(--color-primary);
+}
+
+.logo {
+color: var(--color-secondary);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.logo .accent {
+color: var(--color-brand);
+}
+
+.nav-link {
+color: var(--color-brand);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.nav-link:hover {
+color: var(--color-background);
+}
+
+.nav-link:focus {
+color: var(--color-background);
+}
+
+.address {
+font-style: normal;  
+}
+
+.address-link {
+color: var(--color-secondary-dark);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.address-link:hover {
+color: var(--color-background);
+}
+
+.address-link:focus {
+color: var(--color-background);
+}
+
+.hero-section {
+background-color: var(--color-brand); /*TODO: replase with imags  */
+}
+
+.hero-title {
+color: var(--color-primary);
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+
+.button {
+color: var(--color-primary);
+background: var(--color-secondary);
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+border: none;
+
+}
+
+.button:hover {
+color: var(--color-primary);
+background: var(--color-background);
+}
+
+.button:focus {
+color: var(--color-primary);
+background: var(--color-background);
+}
+
+.hide {
+visibility: hidden;
+}
+
+.club-title {
+color: var(--color-brand);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize
+}
+
+.club-subtitle {
+color: var(--color-brand);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.club-text {
+color: var(--color-secondary-dark);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.team-section {
+background-color: var(--color-secondary-light) 
+}
+
+.team {
+background-color: var(--color-primary);
+}
+
+.footer {
+background: var(--color-brand);
+}
+.logo-footer {
+color: var(--color-secondary);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.logo-footer .accent {
+color: var(--color-secondary-light);
+}
+
+.footer-text {
+color: var(--color-secondary-light);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section{
+  padding: 188px 0;
+}
+.studio-section {
+  padding: 120px 0;
+}
+.team-section {
+  padding: 120px 0;
+}
+.portfolio-section {
+  padding: 120px 0;
+}
+.footer {
+  padding: 100px 0;
+}
