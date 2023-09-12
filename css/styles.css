@@ -26,7 +26,7 @@ header {
   padding: 24px 0 24px;
   border-bottom: 1px solid var(--color-border-light);
 }
-padding: 0 156px;
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -122,10 +122,7 @@ color: var(--color-background);
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
-ul {
-  margin: 0;
-  padding: 0;
-}
+
 
 .hero-inner {
 padding: 188px 0 188px;
@@ -139,6 +136,8 @@ padding: 120px 0;
 background-color: var(--color-brand); /*TODO: replase with imags  */
 padding: 188px 0;
 }
+
+
 
 .hero-title {
 margin: 0 auto;
@@ -194,14 +193,22 @@ background: var(--color-background);
   display: flex;
   gap: 24px;
   list-style-type: none;
-  width: calc((100%-72px)/4);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .advantage-item {
   padding-bottom: 8px;
   margin-bottom: 8px;
+  width: calc((100%-72px)/4);
 }
   
+.studio-card {
+  margin-bottom: 8px;
+}
 
 .club-title {
 color: var(--color-brand);
@@ -230,6 +237,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 .team-section {
@@ -246,7 +254,9 @@ gap: 24px;
 background-color: var(--color-primary);
 flex-basis: calc((100%-72px)/4);
 list-style-type: none;
+border-radius: 0px 0px 4px 4px;
 }
+
 
 .team-card {
   max-width: 264px;
@@ -254,6 +264,8 @@ list-style-type: none;
   padding-bottom: 24px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   border: 1px solid var(--color-border-light);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 
@@ -261,11 +273,13 @@ list-style-type: none;
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .portfolio-cards {
   flex-basis: calc((100%-120px)/6);
   list-style-type: none;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio {
