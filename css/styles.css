@@ -123,10 +123,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-.hero-inner {
-padding: 188px 0 188px;
-max-width: 496px;
-}
 .section {
 padding: 120px 0;
 }
@@ -136,9 +132,8 @@ background-color: var(--color-brand); /*TODO: replase with imags  */
 padding: 188px 0;
 }
 
-
-
 .hero-title {
+max-width: 496px;
 margin: 0 auto;
 color: var(--color-primary);
 text-align: center;
@@ -163,6 +158,9 @@ gap: 10px;
 border-radius: 4px;
 margin: 0 auto;
 display: block;
+min-width: 169px;
+height: 56px;
+border: none;
 }
 
 .button:hover {
