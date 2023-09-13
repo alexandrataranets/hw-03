@@ -38,7 +38,9 @@ display: flex;
 gap: 40px;
 list-style-type: none;
 }
-
+.header-container {
+  display: flex;
+}
 .header-nav {
 display: flex;
 align-items: center;
