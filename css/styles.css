@@ -29,7 +29,6 @@ border-bottom: 1px solid var(--color-border-light);
 }
 
 .container {
-display: flex;
 width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
@@ -179,7 +178,7 @@ overflow: hidden;
 border: 0;
 padding: 0;
 clip: rect(0 0 0 0);
-clip-path: inset(50%);
+clip-path: inset(100%);
 margin: -1px;
 }
 
@@ -191,7 +190,7 @@ list-style-type: none;
 
 ul {
 margin: 0;
-padding: 0;
+padding-left: 0;
 }
 
 .advantage-item {
@@ -305,6 +304,7 @@ display: inline-block;
 
 .logo-footer .accent {
 color: var(--color-secondary-light);
+display: inline-block;
 }
 
 .footer-text {
